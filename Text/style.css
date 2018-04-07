@@ -1,0 +1,6 @@
+.text__content {
+  border-radius: 5px;
+  padding: 3px;
+  border: 1px solid grey;
+  font-family: Roboto;
+}
