@@ -20,7 +20,6 @@ class Text extends HTMLElement {
 
   changeState(property, value) {
     const prop = this.getAttribute('content');
-    console.log(prop);
     if(property === prop && this.state.content !== value) {
       this.state = { content: value };
       this.render();
